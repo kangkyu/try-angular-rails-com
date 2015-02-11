@@ -46,7 +46,7 @@ end
 
 
 gem 'bower-rails'
-gem 'angular-rails-templates'
+gem 'angular-rails-templates', '~> 0.1.3'
 
 gem 'sass', '3.2.19'
 group :test, :development do
@@ -55,6 +55,8 @@ group :test, :development do
   gem "capybara"
   gem "database_cleaner"
   gem "selenium-webdriver"
+  gem 'teaspoon', '~> 0.8.0'
+  gem 'phantomjs'
 end
 
 gem 'foreman'
